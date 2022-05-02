@@ -22,3 +22,6 @@ if (randomNumber1 > randomNumber2) {
 } else {
     document.querySelector("h1").textContent = "Draw!";
 }
+
+// function to reload to play again
+playAgain = () => location.reload(); 
